@@ -1,5 +1,5 @@
 # good_food
-html và css cơ bản, animation cơ bản, fill svg, responsive mobile first
+responsive mobile first, trong đó html và css cơ bản gồm grid & flex, animation cơ bản, cách fill svg và thực hiện animation
 
 ![Alt text](image.png)
 
