@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+    <title>Food place</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+             <a href="/" class="nav__logo">
+                 <img src="assets/img/logo.svg" alt="">
+                 f.place
+             </a>
+             <div>
+                 <img src="assets/img/image_header.png" alt="image" class="nav__center-img">
+             </div>
+             <div class="nav__right">
+                 <img src="assets/img/search.svg" alt="image">
+                 <div class="nav__cart">
+                    <img src="assets/img/cart2.svg" alt="image">
+                    <span>0</span>
+                 </div>
+                 <div id="nav-toggle" class="nav__toggle">
+                     <img src="assets/img/menu_icon.svg" alt="image" id="nav-burger">
+                 </div>
+                 <div class="nav__menu" id="nav-menu">
+                     <ul class="nav__list">
+                         <li>
+                             <a href="/home" class="nav__link">Home</a>
+                         </li>
+                         <li>
+                             <a href="/#features" class="nav__link">Features</a>
+                         </li>
+                         <li>
+                             <a href="/recipes" class="nav__link">Recipes</a>
+                         </li>
+                         <li>
+                             <a href="/testimonial" class="nav__link">Testimonial</a>
+                         </li>
+                     </ul>
+                     <div class="nav__menu-bottom">
+                         <a href="" class="btn" id="nav-close">Close</a>
+                     </div>                   
+                 </div>
+             </div>
+        </nav>
+     </header>
+
+    <main class="main">
+        <!-- Cart -->
+        <section class="section home">
+            <div class="cart__container container grid">
+                <h1  class="cart__list-header">Shopping Cart</h1>
+                <div class="cart__list">                  
+                    <!-- <div class="cart__item">
+                        <div  class="cart__item-img">
+                            <img src="assets/img/recipes_bowl.png" alt="image">
+                        </div>
+                        <div class="cart__item-name">
+                            Flame boile dish
+                        </div>
+                        <div>
+                            <i class="ri-subtract-line cart__minus"></i>
+                            <input type="text" class="cart__item-quantity" value="1">
+                            <i class="ri-add-line cart__plus"></i>
+                        </div>
+                        <div class="cart__item-totalprice">$19.99</div> 
+                    </div>-->
+                </div>
+                <div class="cart__subtotal">
+                    <span>
+                        Sub-toal: $19.99
+                    </span>
+                </div>
+            </div>
+        </section>
+
+      
+    </main>
+    
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__info">               
+                    <a href="/" class="nav__logo">
+                        <img src="assets/img/logo.svg" alt="">
+                        f.place
+                    </a>               
+                <div class="footer__email">
+                    <i class="ri-mail-line"></i> <span>info@food_palace.com</span>
+                </div>
+                <div class="footer__website">
+                    <i class="ri-global-line"></i><span>ww.food_palace.com</span> 
+                </div>
+            </div>
+            <div class="footer__menu grid">
+                <div>
+                    <h3 class="footer__title">Our menu</h3>
+                    <ul class="footer__menu-links">
+                        <li><a href="#" target="_blank">Breakfast</a></li>
+                        <li><a href="#" target="_blank">Lunce</a></li>
+                        <li><a href="#" target="_blank">Dinner</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">Information</h3>
+                    <ul class="footer__menu-links">
+                        <li><a href="#" target="_blank">About us</a></li>
+                        <li><a href="#" target="_blank">Testimonial</a></li>
+                        <li><a href="#" target="_blank">Event</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">Useful links</h3>
+                    <ul class="footer__menu-links">
+                        <li><a href="#" target="_blank">Services</a></li>
+                        <li><a href="#" target="_blank">Support</a></li>
+                        <li><a href="#" target="_blank">Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">Social Handles</h3>
+                    <ul class="footer__menu-links">
+                        <li><a href="#" class="footer__social-link" target="_blank">Facebook</a></li>
+                        <li><a href="#" class="footer__social-link" target="_blank">Twitter</a></li>
+                        <li><a href="#" class="footer__social-link" target="_blank">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <img src="assets/img/footer_left.png" alt="image" class="footer__img-left">
+        <img src="assets/img/footer_right.png" alt="image" class="footer__img-right">
+    </footer>
+    <script src="assets/js/scrollreveal.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    
+    <script src="assets/js/main.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="assets/js/cart.js"></script> 
+    <script src="assets/js/display_cart.js"></script> 
+</body>
+</html>
